@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import Portrait from "../assets/img/user-01.avif";
+import Vagues from "../assets/img/vagues.avif";
+import More from "../assets/icons/more-horiz.svg";
+---
+
+<article>
+  <Image src={Vagues} alt="Vagues bleues"/>
+  <div>
+    <div>
+      <Image src={Portrait} alt="Jerome Bell"/>
+      <div>
+        <h3>Jerome Bell</h3>
+        <p>@whitefish664</p>
+      </div>
+    </div>
+    <a href="#">
+      <More />
+    </a>
+  </div>
+</article>
